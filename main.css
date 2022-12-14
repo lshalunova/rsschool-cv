@@ -1,0 +1,16 @@
+
+
+body {
+    max-width: 1500px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    box-sizing: border-box;
+    padding: 0 50px;
+    max-width: 1500px;
+    display: flex;
+   background: #e3f1f1;
+}
