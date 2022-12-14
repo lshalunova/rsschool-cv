@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./main.css">
+  <script src="./picture"></script>
   <title>Резюме</title>
 </head>
 
@@ -14,15 +16,22 @@
 
   <main>
     <h2> Дата рождения: 12.09.1981</h2>
-    <h3>Телефон: +7 ( 950 ) 278 - 29 - 02 </h3>
-    <h3>E-mail: l.shalunova@mail.ru</h3>
-
+    <nav class="novigation">
+      <div class="novigation__tel">
+        <h4>Телефон: </h4>
+        <a class="novigation__link" href="#">+79502782902</a>
+  
+        <h4>E-mail:</h4>
+        <a class="novigation__link" href="#">l.shalunova@mail.ru</a>
+      </div>
+    </nav>
 
     <div class="student">
       <h2>Образование:</h2>
       <h4>Кузбасский Институт Экономики и Права, Кемерово </h4>
       <i><b>Финансы и кредит</b></i><br>
       <i>Экономический, очная</i>
+      <p><b>Уровень английского:</b>А2</p>
 
     </div>
     <div class="work">
@@ -45,13 +54,32 @@
           правильности оформления документов специалистами производственного цикла, проверка расчетов по списанию норм
           естественной убыли, расчет себестоимости готовой продукции , отражение операций по счету 43, 20. и пр.</li>
       </ul>
+      <p><b>ПРОФЕССИОНАЛЬНЫЕ НАВЫКИ</b></p>
+      <ol>
+        <li>1С:Бухгалтерия</li>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+      </ol>
+
 
 
 
     </div>
 
   </main>
+  <hr>
   <footer>
+    <div class="footer">
+      <img class="footer" src="./picture/rs_school.jpg" alt="иконка">
+
+      <b>"<span class="colored">Мой</span>github», 2022. </b><br>
+      <div class="rooter__git">
+        <a class="footer__contacts"
+          href="https://github.com/lshalunova/rsschool-cv">https://github.com/lshalunova/rsschool-cv</a>
+      </div>
+      <a class="footer__contacts" href="https://rs.school/js/">https://rs.school/js/</a>
+    </div>
 
   </footer>
 
